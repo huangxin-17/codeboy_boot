@@ -1,0 +1,93 @@
+.my_header,.my_footer{
+width: 100%;	
+}
+@media (min-width:576px){
+		.my_header{
+			height: 25rem;
+		}
+		.my_footer{
+			height: 32rem;
+		}
+}
+@media (min-width:992px) {
+		.my_header{
+			height: 7rem;
+		}
+		.my_footer{
+			height: 20rem;
+		}
+}
+.carousel-indicators li{
+	width: .7rem;
+	height:.7rem;
+	background: #fff;
+	margin-right:2rem;
+	border-radius: 50%;
+	border: 0;
+}
+.carousel-indicators li.active{
+	background: #0aa1ed;
+}
+.carousel-control-next,.carousel-control-prev{
+	width: 4%;
+	height: 20%;
+	top:40%;
+	background: #aaa;
+	border-radius: .3rem;
+}
+.border-bottom{
+	border-width:3px !important;
+}
+.my_height1{
+	height: 377px;
+}
+.my_height2{
+	height:233px;
+}
+.bg_1{
+	background: #e8e8e8;
+}
+.card{
+	
+}
+.img_position1{
+	margin-right: 20px;
+	margin-top: -185px;
+	transition:all .5s;
+}
+.img_position1:hover{
+	transform: scale(1.05);
+}
+.nav-item+.nav-item{
+	margin-left:5px;
+}
+.img_position2{
+	transition:all .5s;
+}
+.img_position2:hover{
+	transform:scale(1.05);
+}
+.bg_p{
+	background-color: pink;
+}
+.text_p{
+	color: pink;
+}
+.btn_p{
+	background-color: pink;
+	color: #fff;
+}
+.f1{
+	color: #0aa1ed;
+}
+.f1:hover{
+	color: #0a7eb8 ;
+	text-decoration:none ;
+}
+.f2{
+	color:pink;
+}
+.f2:hover{
+	color: #c66a7a;
+	text-decoration:none ;
+}
